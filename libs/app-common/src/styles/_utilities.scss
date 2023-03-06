@@ -1,0 +1,61 @@
+//region Media Queries
+@mixin minmax($minWidth, $maxWidth) {
+  @media (min-width: #{$minWidth}) and (max-width: #{$maxWidth - 1px}) {
+    @content;
+  }
+}
+
+@mixin max($maxWidth) {
+  @media (max-width: #{$maxWidth}) {
+    @content;
+  }
+}
+
+@mixin min($minWidth) {
+  @media (min-width: #{$minWidth}) {
+    @content;
+  }
+}
+//endregion
+
+@mixin fixedSize($width, $height: $width) {
+  width: $width;
+  min-width: $width;
+  max-width: $width;
+
+  height: $height;
+  min-height: $height;
+  max-height: $height;
+}
+
+@mixin defaultHover() {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+
+  &:hover {
+    //box-shadow: 0 0 6px rgba(0, 0, 0, 0.16);
+    background-color: var(--color-primaryLight);
+    color: var(--color-primary);
+    fill: var(--color-primary);
+  }
+}
+
+@mixin defaultSelection() {
+  &:not(.selected) {
+    @include defaultHover();
+  }
+
+  &.selected {
+    background-color: #ceddf9;
+    color: var(--color-primary);
+    fill: var(--color-primary);
+    font-weight: bold !important;
+    cursor: default;
+    -webkit-tap-highlight-color: transparent;
+
+    * {
+      font-weight: bold;
+    }
+  }
+}

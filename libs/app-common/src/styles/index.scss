@@ -1,0 +1,80 @@
+:root {
+  --page-padding: 20px;
+  --border-radius: 6px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 800;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+hr {
+  border: none;
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: var(--color-text2OnBackground);
+  opacity: 0.2;
+}
+
+.MuiDrawer-modal,
+.MuiBackdrop-root {
+  max-height: 100vh;
+}
+
+[style*='--aspect-ratio'] > :first-child {
+  width: 100%;
+}
+
+[style*='--aspect-ratio'] > img {
+  height: auto;
+  object-fit: cover;
+}
+
+@supports (--custom: property) {
+  [style*='--aspect-ratio'] {
+    position: relative;
+  }
+  [style*='--aspect-ratio']::before {
+    height: 0;
+    content: '';
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+  [style*='--aspect-ratio'] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}

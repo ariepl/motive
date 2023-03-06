@@ -1,0 +1,22 @@
+//@import '../../../../../app-common/src/styles/utilities';
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button span {
+    text-transform: none;
+  }
+}
+
+.icon {
+  //@include fixedSize(24px);
+  margin-right: 8px;
+}
+
+.loadingContainer {
+  position: absolute;
+  height: 24px;
+}

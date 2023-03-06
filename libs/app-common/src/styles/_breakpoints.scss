@@ -1,0 +1,22 @@
+@import 'utilities';
+
+$mobileMax: 450px;
+$tabletMax: 768px;
+
+@mixin mobileStyle {
+	@include max($mobileMax) {
+		@content;
+	}
+}
+
+@mixin mobileAndTabletStyle {
+	@include max($tabletMax) {
+		@content;
+	}
+}
+
+@mixin desktopStyle {
+	@include min($tabletMax + 1) {
+		@content;
+	}
+}

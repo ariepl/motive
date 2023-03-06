@@ -1,0 +1,89 @@
+{
+  "name": "motivation",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/motivation/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/motivation",
+        "index": "apps/motivation/src/index.html",
+        "baseHref": "/",
+        "main": "apps/motivation/src/main.tsx",
+        "tsConfig": "apps/motivation/tsconfig.app.json",
+        "assets": [
+          "apps/motivation/src/favicon.ico",
+          "apps/motivation/src/assets"
+        ],
+        "styles": ["apps/motivation/src/styles.scss"],
+        "scripts": [],
+        "webpackConfig": "apps/motivation/webpack.config.js"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/motivation/src/environments/environment.ts",
+              "with": "apps/motivation/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/webpack:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "motivation:build",
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "motivation:build:development"
+        },
+        "production": {
+          "buildTarget": "motivation:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/motivation/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/motivation/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    }
+  },
+  "tags": []
+}

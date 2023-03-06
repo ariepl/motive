@@ -1,0 +1,25 @@
+// Not included in project, only used to have syntax completion in css files!!!
+:root {
+	--color-primary: #673ab7;
+	--color-text1OnPrimary: #fff;
+
+	--color-secondary: #000;
+	--color-text1OnSecondary: '#fff';
+
+	--color-error: #f44336;
+	--color-text1OnError: '#fff';
+
+	--color-input: #e3e5e7;
+	--color-text1OnInput: #292929;
+
+	--color-tertiaryButton: #abb6be;
+	--color-text1OnTertiaryButton: white;
+
+	--color-foreground: #fff;
+	--color-text1OnForeground: rgba(0, 0, 0, 0.87);
+	--color-text2OnForeground: rgba(0, 0, 0, 0.54);
+
+	--color-background: #fff;
+	--color-text1OnBackground: rgba(0, 0, 0, 0.87);
+	--color-text2OnBackground: rgba(0, 0, 0, 0.54);
+}

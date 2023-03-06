@@ -1,0 +1,8 @@
+@mixin tertiaryButtonStyle {
+	> button {
+		background-color: var(--color-tertiaryButton);
+		color: var(--color-text1OnTertiaryButton);
+		overflow: hidden;
+		border-radius: var(--border-radius);
+	}
+}

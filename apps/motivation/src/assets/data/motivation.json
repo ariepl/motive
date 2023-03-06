@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Kompetenzstreben fördern",
+      "articles": [
+        {
+          "id": 1,
+          "title": "Neue Erfahrungen",
+          "implementation": [
+            {
+              "headline": "Was kann ich machen?",
+              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
+            }
+          ],
+          "hints": "Hinweise und Anregungen",
+          "examples": "Satzbeispiele"
+        },
+        {
+          "id": 2,
+          "title": "Möglichkeiten für Teamarbeit organisieren",
+          "implementation": [
+            {
+              "headline": "Was kann ich machen?",
+              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
+            }
+          ],
+          "hints": "Hinweise und Anregungen",
+          "examples": "Satzbeispiele"
+        },
+        {
+          "id": 3,
+          "title": "Begnungsmöglichkeiten organisieren",
+          "implementation": [
+            {
+              "headline": "Was kann ich machen?",
+              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
+            }
+          ],
+          "hints": "Hinweise und Anregungen",
+          "examples": "Satzbeispiele"
+        }
+      ],
+      "icon": "competence.svg"
+    },
+    {
+      "id": 2,
+      "title": "Selbstständigkeit fördern",
+      "articles": [
+        {
+          "id": 2,
+          "title": "Neue Erfahrungen",
+          "implementation": [
+            {
+              "headline": "Was kann ich machen?",
+              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
+            }
+          ],
+          "hints": "Hinweise und Anregungen",
+          "examples": "Satzbeispiele"
+        }
+      ],
+      "icon": "independence.svg"
+    },
+    {
+      "id": 3,
+      "title": "Teamgeist fördern",
+      "articles": [
+        {
+          "id": 3,
+          "title": "Neue Erfahrungen",
+          "implementation": [
+            {
+              "headline": "Was kann ich machen?",
+              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
+            }
+          ],
+          "hints": "Hinweise und Anregungen",
+          "examples": "Satzbeispiele"
+        }
+      ],
+      "icon": "teamspirit.svg"
+    },
+    {
+      "id": 4,
+      "title": "Vertrauen fördern",
+      "articles": [
+        {
+          "id": 4,
+          "title": "Neue Erfahrungen",
+          "implementation": [
+            {
+              "headline": "Was kann ich machen?",
+              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
+            }
+          ],
+          "hints": "Hinweise und Anregungen",
+          "examples": "Satzbeispiele"
+        }
+      ],
+      "icon": "trust.svg"
+    }
+  ],
+  "additionals": [
+    {
+      "id": 1,
+      "title": "Literaturverzeichnis",
+      "text": "Bandura, A. (1979). Sozial-kognitive Lerntheorie. Stuttgart: Klett-Cotta. Deci, E. L. & Ryan, R. M. (1993). Die Selbstbestimmungstheorie der Motivation und ihre Bedeutung für die Pädagogik. Zeitschrift für Pädagogik 39, 2. S. 223-238. Krampen, G. und Hank, P. (2004). Die Vertrauens-Trias: Interpersonales Vertrauen, Selbstvertrauen und Zukunftsvertrauen in der psychologischen Theorienbildung und Forschung. Report Psychologie 29 (11/12), S. 666 – 676."
+    },
+    {
+      "id": 2,
+      "title": "Weiterführende Links",
+      "text": "Testlink"
+    },
+    {
+      "id": 3,
+      "title": "FAQ",
+      "text": "Testfrage"
+    },
+    {
+      "id": 4,
+      "title": "Impressum & Datenschutz",
+      "text": "Platzhalter"
+    }
+  ]
+}

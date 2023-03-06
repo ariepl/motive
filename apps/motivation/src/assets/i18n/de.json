@@ -1,0 +1,22 @@
+{
+  "name": "Motivation App",
+  "explore": {
+    "page-title": "Entdecken",
+    "headline": "Themen entdecken",
+    "description": "Beschreibungstext. Hier finden Sie alle Texte."
+  },
+  "suggestions": {
+    "page-title": "Vorschläge",
+    "headline": "Unterricht Vorschläge finden",
+    "description": "Beantworten Sie nun ein paar Fragen um eine gefilterte Auswahl an Texten zu erhalten. Die Applikation bietet über einhundert verschiedene Hinweise und Anregungen für einen Unterricht. Sie können diese individuell auf der Basis Ihrer Erfahrungen und Kenntnisse für Ihre Arbeit modifizieren und abstimmen oder auch direkt übernehmen.",
+    "start-questions": "Fragen starten"
+  },
+  "knowledge": {
+    "page-title": "Wissen",
+    "headline": "Wissen",
+    "description": "Hier finden Sie Hinweise und Anregungen in den unterschiedlichen Dimensionen."
+  },
+  "categories": {
+    "description": "Hier finden Sie alle passenden Artikel."
+  }
+}
