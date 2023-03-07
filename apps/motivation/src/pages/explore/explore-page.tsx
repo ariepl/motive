@@ -25,7 +25,9 @@ export function ExplorePage() {
                 to={AppRoutingPaths.CATEGORY_DETAIL + '?id=' + category.id}
               >
                 <h1 className={styles.category}>{category.title}</h1>
-                <div className={styles.articles}>8 Artikel</div>
+                <div className={styles.articles}>
+                  8 Möglichkeiten und Anregungen für die Praxis
+                </div>
               </Link>
               <div className={styles.arrow}>
                 <img src={'assets/img/right-arrow.svg'} alt=""></img>

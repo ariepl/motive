@@ -2,8 +2,8 @@
   "name": "Motivation App",
   "explore": {
     "page-title": "Entdecken",
-    "headline": "Themen entdecken",
-    "description": "Beschreibungstext. Hier finden Sie alle Texte."
+    "headline": "Motivation fördern",
+    "description": "Zugänge, Wege, Möglichkeiten für Motivationsförderung in der Praxis – zum Nutzen aller."
   },
   "suggestions": {
     "page-title": "Vorschläge",
@@ -17,6 +17,6 @@
     "description": "Hier finden Sie Hinweise und Anregungen in den unterschiedlichen Dimensionen."
   },
   "categories": {
-    "description": "Hier finden Sie alle passenden Artikel."
+    "description": "Konkrete Hinweise für die Praxis."
   }
 }
