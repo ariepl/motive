@@ -6,7 +6,6 @@ import * as React from 'react';
 import { useHistory } from '@gtn/app-common/utils/HookUtils';
 import { StyleProps } from '@gtn/app-common/components/StyleProps';
 import styles from '@gtn/app-common/components/gtn-button/GtnButton.module.scss';
-//import styles from 'GtnButton.module.scss';
 
 export interface GtnButtonProps extends StyleProps {
   label: string;
