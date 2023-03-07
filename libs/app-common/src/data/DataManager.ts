@@ -13,14 +13,13 @@ export class DataManager {
     return this.categories?.find((c) => c.id === categoryId);
   }
 
-  getArticleById(articleId: number) {
-    return this.articles?.find((c) => c.id === articleId);
+  getArticleById(categoryId: number, articleId: number) {
+    return this.categories?.find((c) => c.id === categoryId);
   }
 
   private readonly httpService = InjectionContainer.resolve(HttpService);
 
   private categories?: Category[];
-  private articles?: Article[];
   private additionals?: Additional[];
 
   public getCategories(): Category[] | undefined {

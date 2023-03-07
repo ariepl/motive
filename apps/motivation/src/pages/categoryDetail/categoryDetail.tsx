@@ -1,19 +1,30 @@
 import InjectionContainer from '@gtn/app-common/utils/InjectionContainer';
 import { DataManager } from '@gtn/app-common/data/DataManager';
 import styles from './categoryDetail-page.module.scss';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { AppRoutingPaths } from '../AppRoutingPaths';
 import { useAppTranslation } from '@gtn/app-common/utils/HookUtils';
 import { useMemo } from 'react';
 
+import { NumberParam, useQueryParams } from 'use-query-params';
+
 export function CategoryDetailPage() {
   const dataManager = InjectionContainer.resolve(DataManager);
   const t = useAppTranslation();
-  const categoryId = 1;
+  //const categoryId = useParams();
+
+  const [params] = useQueryParams({
+    articleId: NumberParam,
+    categoryId: NumberParam,
+  });
+
+  //todo: replace 1 with categoryId
   const category = useMemo(
-    () => dataManager.getCategoryById(categoryId),
-    [categoryId]
+    () => dataManager.getCategoryById(1),
+    [params.categoryId]
   );
+
+  console.log(category);
 
   if (category) {
     return (
@@ -25,12 +36,14 @@ export function CategoryDetailPage() {
             <div className={styles.categoryContainer}>
               <Link
                 className={styles.link}
-                to={AppRoutingPaths.ARTICLES + '?id=' + article.id}
+                to={
+                  AppRoutingPaths.ARTICLES +
+                  '?articleId=' +
+                  article.id +
+                  '&categoryId=' +
+                  category.id
+                }
               >
-                {/* //todo link category d + article id */}
-                {/* AppRoutingPaths.CATEGORY_DETAIL + '?id=' + category.id + '&' +
-                AppRoutingPaths.ARTICLES + '?id=' + article.id */}
-
                 {article.title}
               </Link>
               <div className={styles.arrow}>

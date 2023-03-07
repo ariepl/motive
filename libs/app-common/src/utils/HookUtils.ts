@@ -1,9 +1,9 @@
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import {LocationDescriptor} from 'history';
-import {TFunction} from 'i18next';
-import {useState} from 'react';
-import {useTranslation} from 'react-i18next';
-import {useHistory as useHistoryRouter,} from 'react-router-dom';
+import { LocationDescriptor } from 'history';
+import { TFunction } from 'i18next';
+import { useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { useHistory as useHistoryRouter, useLocation } from 'react-router-dom';
 
 export const useHistory = <T>() => {
   const history = useHistoryRouter<T>();
@@ -20,11 +20,9 @@ export const useHistory = <T>() => {
   };
 };
 
-
 export const useAppTranslation = () => {
   return useTranslation().t;
 };
-
 
 export function useForceUpdate() {
   const [value, setValue] = useState(0);
