@@ -11,7 +11,7 @@ export const DEFAULT_MOTIVATION_APP_CONFIG: IAppConfig = {
       primaryLight: '#D5ECEC',
       text1OnPrimary: '#fff',
 
-      secondary: '#FFB22D',
+      secondary: '#fff',
       text1OnSecondary: 'rgba(0,0,0,0.85)',
 
       error: '#f44336',
