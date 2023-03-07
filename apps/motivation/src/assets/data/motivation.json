@@ -7,36 +7,21 @@
         {
           "id": 1,
           "title": "Neue Erfahrungen",
-          "implementation": [
-            {
-              "headline": "Was kann ich machen?",
-              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
-            }
-          ],
-          "hints": "Hinweise und Anregungen",
-          "examples": "Satzbeispiele"
+          "implementation": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können.",
+          "hints": "Ich gebe Schüler*innen Freiräume für die Gestaltung des Lernens und Arbeitens",
+          "examples": "Überlege wie du die Arbeite angehen möchtest!"
         },
         {
           "id": 2,
           "title": "Möglichkeiten für Teamarbeit organisieren",
-          "implementation": [
-            {
-              "headline": "Was kann ich machen?",
-              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
-            }
-          ],
-          "hints": "Hinweise und Anregungen",
-          "examples": "Satzbeispiele"
+          "implementation": "Ich organisiere für Schüler*innen Möglichkeiten um Arbeiten eigenständig zu strukturieren (Zeitplan, Arbeitsschritte, Auswahl der Inhalte).",
+          "hints": "Ich organisiere Zeiträume und Strukturen für Arbeiten im Team und für konkrete soziale Begegnungen (gemeinsames Essen, gemeinsame Klassenrituale).",
+          "examples": "Das Ergebnis zeigt auch die Zusammenarbeit auf!"
         },
         {
           "id": 3,
           "title": "Begnungsmöglichkeiten organisieren",
-          "implementation": [
-            {
-              "headline": "Was kann ich machen?",
-              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
-            }
-          ],
+          "implementation": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können.",
           "hints": "Hinweise und Anregungen",
           "examples": "Satzbeispiele"
         }
@@ -48,16 +33,18 @@
       "title": "Selbstständigkeit fördern",
       "articles": [
         {
+          "id": 1,
+          "title": "Teampräsentationen ermöglichen",
+          "implementation": "Ich vereinbare und übe mit Schüler*innen Formen für positive, soziale Kommunikation: sich begrüßen, sich bedanken, sich entschuldigen, um etwas ersuchen und bitten.",
+          "hints": "Ich gebe Raum für Teampräsentationen.",
+          "examples": "Die Gruppe hat sich hier sehr gut eingearbeitet!"
+        },
+        {
           "id": 2,
-          "title": "Neue Erfahrungen",
-          "implementation": [
-            {
-              "headline": "Was kann ich machen?",
-              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
-            }
-          ],
-          "hints": "Hinweise und Anregungen",
-          "examples": "Satzbeispiele"
+          "title": "Teamarbeit organisieren",
+          "implementation": "Ich organisiere für Schüler*innen Möglichkeiten um Arbeiten eigenständig zu strukturieren (Zeitplan, Arbeitsschritte, Auswahl der Inhalte).",
+          "hints": "Ich organisiere Zeiträume und Strukturen für Arbeiten im Team und für konkrete soziale Begegnungen (gemeinsames Essen, gemeinsame Klassenrituale).",
+          "examples": "Das Ergebnis zeigt auch die Zusammenarbeit auf!"
         }
       ],
       "icon": "independence.svg"
@@ -69,12 +56,7 @@
         {
           "id": 3,
           "title": "Neue Erfahrungen",
-          "implementation": [
-            {
-              "headline": "Was kann ich machen?",
-              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
-            }
-          ],
+          "implementation": "y",
           "hints": "Hinweise und Anregungen",
           "examples": "Satzbeispiele"
         }
@@ -88,12 +70,7 @@
         {
           "id": 4,
           "title": "Neue Erfahrungen",
-          "implementation": [
-            {
-              "headline": "Was kann ich machen?",
-              "content": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können."
-            }
-          ],
+          "implementation": "1",
           "hints": "Hinweise und Anregungen",
           "examples": "Satzbeispiele"
         }
