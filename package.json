@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start-motivation": "nx serve motivation"
+    "start-motivation": "nx serve motivation",
+    "build-motivation": "nx build motivation"
   },
   "private": true,
   "dependencies": {

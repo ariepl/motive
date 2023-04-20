@@ -1,17 +1,14 @@
 import InjectionContainer from '@gtn/app-common/utils/InjectionContainer';
-import { DataManager } from '@gtn/app-common/data/DataManager';
+import {DataManager} from '@gtn/app-common/data/DataManager';
 import styles from './articles-page.module.scss';
-import { Link, useParams } from 'react-router-dom';
-import { AppRoutingPaths } from '../AppRoutingPaths';
-import { useAppTranslation } from '@gtn/app-common/utils/HookUtils';
-import { useMemo, useState } from 'react';
-import { NumberParam, StringParam, useQueryParams } from 'use-query-params';
+import {useAppTranslation} from '@gtn/app-common/utils/HookUtils';
+import {useMemo, useState} from 'react';
+import {NumberParam, useQueryParams} from 'use-query-params';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import NavTabs from '@gtn/app-common/navigation/NavTabs';
 
 function LinkTab(props) {
   return (

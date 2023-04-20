@@ -5,7 +5,10 @@ import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
 import styles from './AppNavigation.module.scss';
 import { GtnRouteSwitch } from '@gtn/app-common/utils/routing/GtnRouteSwitch';
-import { useAppTranslation } from '@gtn/app-common/utils/HookUtils';
+import {
+  useAppTranslation,
+  useForceUpdate,
+} from '@gtn/app-common/utils/HookUtils';
 
 export interface AppNavigationProps {
   routes: GtnRoute[];
@@ -14,6 +17,7 @@ export interface AppNavigationProps {
 
 export function AppNavigation(props: AppNavigationProps) {
   const history = useHistory();
+  const forceUpdate = useForceUpdate();
   const t = useAppTranslation();
 
   return (
@@ -29,13 +33,23 @@ export function AppNavigation(props: AppNavigationProps) {
       </div>
 
       <BottomNavigation
+        value={
+          props.primaryNavigationItems.find((n) =>
+            window.location.pathname.includes(n.href!)
+          )?.href
+        }
         onChange={(event, newValue) => {
           history.push({ pathname: newValue });
+          forceUpdate();
         }}
         showLabels
       >
         {props.primaryNavigationItems.map((item) => (
-          <BottomNavigationAction label={t(item.title)} value={item.href} />
+          <BottomNavigationAction
+            label={t(item.title)}
+            value={item.href}
+            icon={item.icon}
+          />
         ))}
       </BottomNavigation>
     </div>

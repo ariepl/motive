@@ -50,9 +50,21 @@ export default function MotivationApp() {
 
   const navItems: NavigationItem[] = useMemo(() => {
     return [
-      { title: 'explore.page-title', href: AppRoutingPaths.EXPLORE },
-      { title: 'suggestions.page-title', href: AppRoutingPaths.SUGGESTIONS },
-      { title: 'knowledge.page-title', href: AppRoutingPaths.KNOWLEDGE },
+      {
+        title: 'explore.page-title',
+        href: AppRoutingPaths.EXPLORE,
+        icon: <img src={'assets/img/compass.svg'} alt="" />,
+      },
+      {
+        title: 'suggestions.page-title',
+        href: AppRoutingPaths.SUGGESTIONS,
+        icon: <img src={'assets/img/magnify.svg'} alt="" />,
+      },
+      {
+        title: 'knowledge.page-title',
+        href: AppRoutingPaths.KNOWLEDGE,
+        icon: <img src={'assets/img/lightbulb.svg'} alt="" />,
+      },
     ];
   }, []);
 
