@@ -11,20 +11,18 @@ import { NumberParam, useQueryParams } from 'use-query-params';
 export function CategoryDetailPage() {
   const dataManager = InjectionContainer.resolve(DataManager);
   const t = useAppTranslation();
-  //const categoryId = useParams();
 
   const [params] = useQueryParams({
     articleId: NumberParam,
-    categoryId: NumberParam,
+    id: NumberParam,
   });
 
-  //todo: replace 1 with categoryId
-  const category = useMemo(
-    () => dataManager.getCategoryById(1),
-    [params.categoryId]
-  );
+  const categoryIdNumber = params.id || 1;
 
-  console.log(category);
+  const category = useMemo(
+    () => dataManager.getCategoryById(categoryIdNumber),
+    [categoryIdNumber, dataManager]
+  );
 
   if (category) {
     return (
