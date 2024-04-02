@@ -2,13 +2,34 @@ import InjectionContainer from '@gtn/app-common/utils/InjectionContainer';
 import { DataManager } from '@gtn/app-common/data/DataManager';
 import { GtnButton } from '@gtn/app-common/components/gtn-button/GtnButton';
 import styles from './suggestions-page.module.scss';
-import { Link } from 'react-router-dom';
-import { AppRoutingPaths } from '../AppRoutingPaths';
 import { useAppTranslation } from '@gtn/app-common/utils/HookUtils';
+import { useState, useEffect } from "react";
+import { Question } from "@gtn/app-common/data/Question";
 
 export function SuggestionsPage() {
+  const [questions, setQuestions] = useState<Question[]>();
+  const [loading, setLoading] = useState(false);
+
   const dataManager = InjectionContainer.resolve(DataManager);
   const t = useAppTranslation();
+
+  useEffect(() => {
+    startQuestions();
+  }, []);
+
+  async function startQuestions() {
+    setLoading(true);
+    try {
+      await dataManager.loadQuestionsData();
+      const loadedQuestions = dataManager.getQuestions();
+      setQuestions(loadedQuestions);
+      console.log(loadedQuestions);
+    } catch (error) {
+      // handle error, such as displaying a notification
+    } finally {
+      setLoading(false);
+    }
+  }
 
   return (
     <div className={styles.container}>
@@ -20,13 +41,20 @@ export function SuggestionsPage() {
           label={t('suggestions.start-questions')}
           actionType="primary"
           onClick={startQuestions}
-          /*loading={importProgressState === ProgressState.Loading}*/
         />
       </div>
+
+      {loading && <p>Loading questions...</p>}
+
+      {questions && (
+        <div className={styles.questionsContainer}>
+          {questions.map((question, index) => (
+            <p key={index}>test</p>
+          ))}
+        </div>
+      )}
+
+      {!loading && !questions && <p>Failed to load questions.</p>}
     </div>
   );
-
-  async function startQuestions() {
-    //todo Card Questions
-  }
 }
