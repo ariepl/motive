@@ -1,0 +1,141 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "question": "Ich gebe Schülerinnen und Schülern immer wieder auch Aufgabenstellungen, von denen ich nicht sicher bin, ob diese gelöst werden können – aber vielleicht wissen sie mehr als ich vermute.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 5
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 4
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 2
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Wenn einzelne Schülerinnen und Schüler spüren, dass sie zu einer Gruppe gehören, macht Ihnen das Lernen mehr Freude.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 5
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 4
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Ein Klima des Vertrauens stört effektive Lern- und Arbeitsprozesse in einer Klasse.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 1
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 2
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Grundsätzlich meine ich, dass meine Schülerinnen und Schüler nicht besonders klug sind.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 1
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 2
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Schülerinnen und Schülern gebe ich bei gelungenen Aufgabenlösungen Rückmeldung darüber, was sie bereits schaffen.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 5
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 4
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Schülerinnen und Schüler brauchen klare und Anweisungen bei Lernprozessen, damit sie das vorgegebene Ziel erreichen.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 1
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 2
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 4
+        }
+      ]
+    }
+  ]
+}
