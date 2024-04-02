@@ -2,6 +2,7 @@
 import { singleton } from 'tsyringe';
 import { Category } from './Category';
 import { Article } from './Article';
+import { Question } from './Question';
 import { Additional } from './Additional';
 import { GtnLogger } from '@gtn/app-common/utils/logger/GtnLogger';
 import InjectionContainer from '@gtn/app-common/utils/InjectionContainer';
@@ -21,6 +22,8 @@ export class DataManager {
 
   private categories?: Category[];
   private additionals?: Additional[];
+  private questions?: Question[];
+
 
   public getCategories(): Category[] | undefined {
     return this.categories;
@@ -28,6 +31,10 @@ export class DataManager {
 
   public getAdditionals(): Additional[] | undefined {
     return this.additionals;
+  }
+
+  public getQuestions(): Question[] | undefined {
+    return this.questions;
   }
 
   public async loadCategoryData(fileName: string) {
@@ -39,6 +46,18 @@ export class DataManager {
       this.categories = data.categories;
     } catch (e) {
       GtnLogger.warn(`Loading config from ${fileName} failed!`);
+    }
+  }
+
+  public async loadQuestionsData() {
+    try {
+      const data = await this.httpService.get<{ questions: Question[] }>(
+        '/assets/data/questions.json'
+      );
+
+      this.questions = data.questions;
+    } catch (e) {
+      GtnLogger.warn('Loading questions failed!');
     }
   }
 
