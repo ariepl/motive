@@ -12,6 +12,7 @@ import { Redirect } from 'react-router-dom';
 import { NavigationItem } from '@gtn/app-common/navigation/NavigationItem';
 import './styles.scss';
 import { ArticlesPage } from './pages/articles/articles-page';
+import { ResultsPage } from './pages/results/results-page';
 
 export default function MotivationApp() {
   const routes: GtnRoute[] = useMemo(() => {
@@ -50,6 +51,11 @@ export default function MotivationApp() {
         path: `/${AppRoutingPaths.QUESTIONS}`,
         content: () => <QuestionsPage />,
         title: 'questions.page-title',
+      },
+      {
+        path: `/${AppRoutingPaths.RESULTS}`,
+        content: () => <ResultsPage />,
+        title: 'results.page-title',
       },
     ];
   }, []);

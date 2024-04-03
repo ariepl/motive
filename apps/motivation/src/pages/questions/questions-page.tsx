@@ -42,7 +42,7 @@ export function QuestionsPage() {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       if (Object.keys(updatedPoints).length === 4) {
-        history.push('/result', { categoryPoints: updatedPoints });
+        history.push('/results', { categoryPoints: updatedPoints });
       } else {
         setCurrentQuestionIndex(0);
       }
