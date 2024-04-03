@@ -28,7 +28,8 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
+      "categoryId": 1,
       "question": "Wenn einzelne Schülerinnen und Schüler spüren, dass sie zu einer Gruppe gehören, macht Ihnen das Lernen mehr Freude.",
       "options": [
         {
@@ -46,11 +47,16 @@
         {
           "text": "stimme eher nicht zu",
           "points": 2
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
         }
       ]
     },
     {
-      "id": 5,
+      "id": 3,
+      "categoryId": 3,
       "question": "Ein Klima des Vertrauens stört effektive Lern- und Arbeitsprozesse in einer Klasse.",
       "options": [
         {
@@ -68,11 +74,16 @@
         {
           "text": "stimme eher nicht zu",
           "points": 4
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
         }
       ]
     },
     {
-      "id": 7,
+      "id": 4,
+      "categoryId": 4,
       "question": "Grundsätzlich meine ich, dass meine Schülerinnen und Schüler nicht besonders klug sind.",
       "options": [
         {
@@ -90,11 +101,16 @@
         {
           "text": "stimme eher nicht zu",
           "points": 4
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
         }
       ]
     },
     {
-      "id": 9,
+      "id": 5,
+      "categoryId": 1,
       "question": "Schülerinnen und Schülern gebe ich bei gelungenen Aufgabenlösungen Rückmeldung darüber, was sie bereits schaffen.",
       "options": [
         {
@@ -112,11 +128,16 @@
         {
           "text": "stimme eher nicht zu",
           "points": 2
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
         }
       ]
     },
     {
-      "id": 11,
+      "id": 6,
+      "categoryId": 2,
       "question": "Schülerinnen und Schüler brauchen klare und Anweisungen bei Lernprozessen, damit sie das vorgegebene Ziel erreichen.",
       "options": [
         {
@@ -134,6 +155,10 @@
         {
           "text": "stimme eher nicht zu",
           "points": 4
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
         }
       ]
     }
