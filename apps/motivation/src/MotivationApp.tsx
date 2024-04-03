@@ -4,6 +4,7 @@ import { GtnRoute } from '@gtn/app-common/utils/routing/GtnRoute';
 import { ExplorePage } from './pages/explore/explore-page';
 import { SuggestionsPage } from './pages/suggestions/suggestions-page';
 import { KnowledgePage } from './pages/knowledge/knowledge-page';
+import { QuestionsPage } from './pages/questions/questions-page';
 import { CategoryDetailPage } from './pages/categoryDetail/categoryDetail';
 import { AppRoutingPaths } from './pages/AppRoutingPaths';
 import { CommonRoutingPaths } from '@gtn/app-common/AppCommonRouting';
@@ -44,6 +45,11 @@ export default function MotivationApp() {
         path: `/${AppRoutingPaths.ARTICLES}`,
         content: () => <ArticlesPage />,
         title: 'articles.page-title',
+      },
+      {
+        path: `/${AppRoutingPaths.QUESTIONS}`,
+        content: () => <QuestionsPage />,
+        title: 'questions.page-title',
       },
     ];
   }, []);
