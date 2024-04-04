@@ -1,3 +1,4 @@
+import React from 'react';
 import InjectionContainer from '@gtn/app-common/utils/InjectionContainer';
 import { DataManager } from '@gtn/app-common/data/DataManager';
 import styles from './knowledge-page.module.scss';
@@ -20,30 +21,26 @@ export function KnowledgePage() {
           <p>{t('knowledge.description')}</p>
         </div>
 
-        {dataManager.getAdditionals()?.map((additional) => {
-          return (
-            <>
-              <div className={styles.menuContainer}>
-                <Link
-                  className={styles.item}
-                  to={
-                    AppRoutingPaths.ADDITIONAL_KNOWLEDGE +
-                    '?id=' +
-                    additional.id
-                  }
-                >
-                  <h1 className={styles.item}>{additional.title}</h1>
-                </Link>
-                <div className={styles.arrow}>
-                  <img src={'assets/img/right-arrow.svg'} alt=""></img>
-                </div>
+        {dataManager.getAdditionals()?.map((additional) => (
+          <React.Fragment key={additional.id}>
+            <div className={styles.menuContainer}>
+              <Link
+                className={styles.item}
+                to={
+                  AppRoutingPaths.ADDITIONAL_KNOWLEDGE + '?id=' + additional.id
+                }
+              >
+                <h1 className={styles.item}>{additional.title}</h1>
+              </Link>
+              <div className={styles.arrow}>
+                <img src={'assets/img/right-arrow.svg'} alt="" />
               </div>
-              <hr></hr>
-            </>
-          );
-        })}
+            </div>
+            <hr />
+          </React.Fragment>
+        ))}
       </div>
     );
   }
-  return <></>;
+  return null;
 }

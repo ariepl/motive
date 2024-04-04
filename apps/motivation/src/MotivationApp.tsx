@@ -13,6 +13,7 @@ import { NavigationItem } from '@gtn/app-common/navigation/NavigationItem';
 import './styles.scss';
 import { ArticlesPage } from './pages/articles/articles-page';
 import { ResultsPage } from './pages/results/results-page';
+import { AdditionalKnowledgePage } from './pages/additional-knowledge/additional-knowledge-page';
 
 export default function MotivationApp() {
   const routes: GtnRoute[] = useMemo(() => {
@@ -56,6 +57,11 @@ export default function MotivationApp() {
         path: `/${AppRoutingPaths.RESULTS}`,
         content: () => <ResultsPage />,
         title: 'results.page-title',
+      },
+      {
+        path: `/${AppRoutingPaths.ADDITIONAL_KNOWLEDGE}`,
+        content: () => <AdditionalKnowledgePage />,
+        title: 'additional-knowledge.page-title',
       },
     ];
   }, []);

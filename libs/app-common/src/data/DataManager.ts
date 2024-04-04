@@ -18,12 +18,15 @@ export class DataManager {
     return this.categories?.find((c) => c.id === categoryId);
   }
 
+  getAdditionalById(additionalId: number) {
+    return this.additionals?.find((a) => a.id === additionalId);
+  }
+
   private readonly httpService = InjectionContainer.resolve(HttpService);
 
   private categories?: Category[];
   private additionals?: Additional[];
   private questions?: Question[];
-
 
   public getCategories(): Category[] | undefined {
     return this.categories;

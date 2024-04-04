@@ -6,5 +6,5 @@ export class AppRoutingPaths {
   public static readonly KNOWLEDGE = 'knowledge';
   public static readonly QUESTIONS = 'questions';
   public static readonly RESULTS = 'results';
-  public static readonly ADDITIONAL_KNOWLEDGE = 'additional';
+  public static readonly ADDITIONAL_KNOWLEDGE = 'additional-knowledge';
 }
