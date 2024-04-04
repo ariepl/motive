@@ -30,7 +30,7 @@
     {
       "id": 2,
       "categoryId": 2,
-      "question": "Wenn einzelne Schülerinnen und Schüler spüren, dass sie zu einer Gruppe gehören, macht Ihnen das Lernen mehr Freude.",
+      "question": "Haben Schülerinnen und Schüler die Möglichkeit aus unterschiedlichen Arbeitsaufträgen auszuwählen, kann dies das Engagement bei Lernprozessen steigern.",
       "options": [
         {
           "text": "stimme vollkommen zu",
@@ -57,15 +57,15 @@
     {
       "id": 3,
       "categoryId": 3,
-      "question": "Ein Klima des Vertrauens stört effektive Lern- und Arbeitsprozesse in einer Klasse.",
+      "question": "Wenn einzelne Schülerinnen und Schüler spüren, dass sie zu einer Gruppe gehören, macht Ihnen das Lernen mehr Freude.",
       "options": [
         {
           "text": "stimme vollkommen zu",
-          "points": 1
+          "points": 5
         },
         {
           "text": "stimme eher zu",
-          "points": 2
+          "points": 4
         },
         {
           "text": "bin unentschieden",
@@ -73,7 +73,7 @@
         },
         {
           "text": "stimme eher nicht zu",
-          "points": 4
+          "points": 2
         },
         {
           "text": "stimme nicht zu",
@@ -84,15 +84,15 @@
     {
       "id": 4,
       "categoryId": 4,
-      "question": "Grundsätzlich meine ich, dass meine Schülerinnen und Schüler nicht besonders klug sind.",
+      "question": "Eine wichtige Voraussetzung für erfolgreiches Lernen ist, dass Aufgabenstellungen von den Schülerinnen und Schülern verstanden werden können.",
       "options": [
         {
           "text": "stimme vollkommen zu",
-          "points": 1
+          "points": 5
         },
         {
           "text": "stimme eher zu",
-          "points": 2
+          "points": 4
         },
         {
           "text": "bin unentschieden",
@@ -100,7 +100,7 @@
         },
         {
           "text": "stimme eher nicht zu",
-          "points": 4
+          "points": 2
         },
         {
           "text": "stimme nicht zu",
@@ -110,6 +110,114 @@
     },
     {
       "id": 5,
+      "categoryId": 4,
+      "question": "Ein Klima des Vertrauens stört effektive Lern- und Arbeitsprozesse in einer Klasse.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": -1
+        },
+        {
+          "text": "stimme eher zu",
+          "points": -2
+        },
+        {
+          "text": "bin unentschieden",
+          "points": -3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": -4
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "question": "Für Schülerinnen und Schüler ist das Gefühl, zu einer Gruppe zu gehören, für ein erfolgreiches Arbeiten bedeutsam.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 5
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 24
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 2
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "question": "Grundsätzlich meine ich, dass meine Schülerinnen und Schüler nicht besonders klug sind.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": -1
+        },
+        {
+          "text": "stimme eher zu",
+          "points": -2
+        },
+        {
+          "text": "bin unentschieden",
+          "points": -3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": -4
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": -1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "question": "Je mehr die Schülerinnen und Schüler bei Lernprozessen eigene Entscheidungen treffen können, umso größer ist die Motivation, sich in das Thema einzulassen.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 5
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 4
+        },
+        {
+          "text": "bin unentschieden",
+          "points": 3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": 2
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
       "categoryId": 1,
       "question": "Schülerinnen und Schülern gebe ich bei gelungenen Aufgabenlösungen Rückmeldung darüber, was sie bereits schaffen.",
       "options": [
@@ -136,17 +244,71 @@
       ]
     },
     {
-      "id": 6,
+      "id": 10,
+      "categoryId": 3,
+      "question": "Das Lernen in einer Gruppe ist für Schülerinnen und Schüler unangenehm und stört den Lernprozess.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": -1
+        },
+        {
+          "text": "stimme eher zu",
+          "points": -2
+        },
+        {
+          "text": "bin unentschieden",
+          "points": -3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": -4
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "id": 11,
       "categoryId": 2,
       "question": "Schülerinnen und Schüler brauchen klare und Anweisungen bei Lernprozessen, damit sie das vorgegebene Ziel erreichen.",
       "options": [
         {
           "text": "stimme vollkommen zu",
-          "points": 1
+          "points": -1
         },
         {
           "text": "stimme eher zu",
-          "points": 2
+          "points": -2
+        },
+        {
+          "text": "bin unentschieden",
+          "points": -3
+        },
+        {
+          "text": "stimme eher nicht zu",
+          "points": -4
+        },
+        {
+          "text": "stimme nicht zu",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "question": "Damit Schülerinnen und Schüler erfolgreich lernen können,  müssen gestellte Aufgaben für Schülerinnen und Schülern bewältigbar erscheinen.",
+      "options": [
+        {
+          "text": "stimme vollkommen zu",
+          "points": 5
+        },
+        {
+          "text": "stimme eher zu",
+          "points": 4
         },
         {
           "text": "bin unentschieden",
@@ -154,7 +316,7 @@
         },
         {
           "text": "stimme eher nicht zu",
-          "points": 4
+          "points": 2
         },
         {
           "text": "stimme nicht zu",
