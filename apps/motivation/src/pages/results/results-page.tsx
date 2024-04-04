@@ -28,8 +28,9 @@ export function ResultsPage() {
     <div className={styles.container}>
       <h1>Ergebnisse</h1>
       <p>
-        Hier sind Ihre personalisierten Ergebnisse basierend auf den von Ihnen
-        gesammelten Punkten.
+        Dies ist eine Rankingliste Ihrer bevorzugten pädagogischen
+        Vorgangsweisen, die Ihre Stärken und Effizienz in der
+        Motivationsförderung zeigt.
       </p>
       <div className={styles.resultsContainer}>
         {sortedCategoryPoints.map(([categoryId, points]) => {
