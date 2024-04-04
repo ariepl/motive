@@ -1,51 +1,61 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
-import styles from './results-page.module.scss';
+import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { DataManager } from '@gtn/app-common/data/DataManager';
 import InjectionContainer from '@gtn/app-common/utils/InjectionContainer';
+import styles from './results-page.module.scss';
+import { AppRoutingPaths } from '../AppRoutingPaths';
 
 interface LocationState {
   categoryPoints: { [key: string]: number };
 }
-
 export function ResultsPage() {
   const dataManager = InjectionContainer.resolve(DataManager);
   const location = useLocation<LocationState>();
   const { categoryPoints } = location.state;
-  const [motivationData, setMotivationData] = useState<any | null>(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        await dataManager.loadCategoryData('motivation');
-        const categories = dataManager.getCategories();
-        if (categories) {
-          const motivation = categories.find(
-            (category) => category.title === 'Motivation'
-          );
-          if (motivation) {
-            setMotivationData(motivation);
-          }
-        }
-      } catch (error) {
-        console.error('Error fetching motivation data:', error);
-      }
-    };
+  const sortedCategoryPoints = Object.entries(categoryPoints).sort(
+    (a, b) => b[1] - a[1]
+  );
 
-    fetchData();
-  }, [dataManager]);
+  const getCategoryNameById = (categoryId: string) => {
+    const category = dataManager
+      .getCategories()
+      ?.find((c) => c.id.toString() === categoryId);
+    return category ? category.title : 'Kategorie nicht gefunden';
+  };
 
   return (
     <div className={styles.container}>
       <h1>Ergebnisse</h1>
+      <p>
+        Hier sind Ihre personalisierten Ergebnisse basierend auf den von Ihnen
+        gesammelten Punkten.
+      </p>
       <div className={styles.resultsContainer}>
-        {Object.entries(categoryPoints).map(([categoryId, points]) => (
-          <div key={categoryId} className={styles.categoryResult}>
-            {/* todo: category titel einfügen */}
-            <h2>Kategorie {categoryId}</h2>
-            <p>Punkte: {points}</p>
-          </div>
-        ))}
+        {sortedCategoryPoints.map(([categoryId, points]) => {
+          const category = dataManager
+            .getCategories()
+            ?.find((c) => c.id.toString() === categoryId);
+          if (!category) return null;
+
+          return (
+            <div className={styles.categoryContainer}>
+              <div className={styles.icon}>
+                <img src={'assets/img/' + category.icon} alt="" />
+              </div>
+              <Link
+                className={styles.link}
+                to={AppRoutingPaths.CATEGORY_DETAIL + '?id=' + category.id}
+              >
+                <h2 className={styles.category}> {points} Punkte</h2>
+                <p className={styles.articles}>{category.title}</p>
+              </Link>
+              <div className={styles.arrow}>
+                <img src={'assets/img/right-arrow.svg'} alt=""></img>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
