@@ -61,7 +61,9 @@ export function QuestionsPage() {
           className={styles.questionContainer}
           key={questions[currentQuestionIndex].id}
         >
-          <h2>{questions[currentQuestionIndex].question}</h2>
+          <div className={styles.questionText}>
+            {questions[currentQuestionIndex].question}
+          </div>
           <div className={styles.buttonContainer}>
             {questions[currentQuestionIndex].options.map(
               (option: any, index: number) => (
