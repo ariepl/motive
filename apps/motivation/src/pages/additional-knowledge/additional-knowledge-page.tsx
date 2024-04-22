@@ -51,7 +51,12 @@ export function AdditionalKnowledgePage() {
             <h1>{additional.title}</h1>
           </div>
           <div className={styles.menuContainer}>
-            <p>{additional.text}</p>
+            <div>
+              <p className={additional.id === 3 ? styles.question : ''}>
+                {additional.text}
+              </p>
+              <p>{additional.answer ? additional.answer : ''}</p>
+            </div>
           </div>
         </div>
       </div>
