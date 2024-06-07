@@ -34,13 +34,11 @@ export function AdditionalKnowledgePage() {
               >
                 <div className={styles.arrow}>
                   {' '}
-                  {/* Icon-Container */}
                   <img
                     src={'assets/img/right-arrow.svg'}
                     alt=""
                     className={styles.arrowIcon}
                   ></img>{' '}
-                  {/* Arrow Icon */}
                 </div>
                 Zurück
               </Link>
@@ -51,12 +49,15 @@ export function AdditionalKnowledgePage() {
             <h1>{additional.title}</h1>
           </div>
           <div className={styles.menuContainer}>
-            <div>
-              <p className={additional.id === 3 ? styles.question : ''}>
-                {additional.text}
-              </p>
-              <p>{additional.answer ? additional.answer : ''}</p>
-            </div>
+            {additional.text.map((question, index) => (
+              <div key={index}>
+                <p className={additional.id === 3 ? styles.question : ''}>
+                  {question}
+                </p>
+                <p>{additional.answer && additional.answer[index]}</p>
+                {index !== additional.text.length - 1 && <br />}{' '}
+              </div>
+            ))}
           </div>
         </div>
       </div>
