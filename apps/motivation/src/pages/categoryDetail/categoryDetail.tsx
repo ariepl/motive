@@ -28,7 +28,7 @@ export function CategoryDetailPage() {
     return (
       <div className={styles.container}>
         <h1>{category.title}</h1>
-        <p>{t('categories.description')}</p>
+        <p>{category.description ? category.description : ''}</p>
         {category.articles?.map((article) => {
           return (
             <div className={styles.categoryContainer}>
