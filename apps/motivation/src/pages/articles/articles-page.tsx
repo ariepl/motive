@@ -1,9 +1,9 @@
 import InjectionContainer from '@gtn/app-common/utils/InjectionContainer';
-import {DataManager} from '@gtn/app-common/data/DataManager';
+import { DataManager } from '@gtn/app-common/data/DataManager';
 import styles from './articles-page.module.scss';
-import {useAppTranslation} from '@gtn/app-common/utils/HookUtils';
-import {useMemo, useState} from 'react';
-import {NumberParam, useQueryParams} from 'use-query-params';
+import { useAppTranslation } from '@gtn/app-common/utils/HookUtils';
+import { useMemo, useState } from 'react';
+import { NumberParam, useQueryParams } from 'use-query-params';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -91,13 +91,25 @@ export function ArticlesPage() {
         </AppBar>
         <div className={styles.navigationContainer}>
           <TabPanel value={value} index={0}>
-            <div dangerouslySetInnerHTML={{ __html: article.implementation }} />
+            <div
+              dangerouslySetInnerHTML={{
+                __html: article.implementation.join('<br>'),
+              }}
+            />
           </TabPanel>
           <TabPanel value={value} index={1}>
-            <div dangerouslySetInnerHTML={{ __html: article.hints }} />
+            <div
+              dangerouslySetInnerHTML={{
+                __html: article.hints.join('<br><br>'),
+              }}
+            />
           </TabPanel>
           <TabPanel value={value} index={2}>
-            <div dangerouslySetInnerHTML={{ __html: article.examples }} />
+            <div
+              dangerouslySetInnerHTML={{
+                __html: article.examples.join('<br>'),
+              }}
+            />
           </TabPanel>
         </div>
       </div>
