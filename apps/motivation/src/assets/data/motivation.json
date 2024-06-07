@@ -3,27 +3,57 @@
     {
       "id": 1,
       "title": "Kompetenz zutrauen",
+      "description": "Personen wollen kompetent sein.",
       "articles": [
         {
           "id": 1,
-          "title": "Neue Erfahrungen",
-          "implementation": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können.",
-          "hints": "Ich gebe Schüler*innen Freiräume für die Gestaltung des Lernens und Arbeitens",
-          "examples": "Überlege wie du die Arbeite angehen möchtest!"
+          "title": "Fokus Arbeitssituation",
+          "implementation": [
+            "• Leistungen der Schüler*innen sichtbar machen",
+            "• Leistungen zusammenfassen",
+            "• Erreichbare Ziele definieren"
+          ],
+          "hints": [
+            "• Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können. (Z. B. ein für alle sichtbares Erfolgsbuch oder eine Wandtafel – was wir und einzelne Schüler*innen schon können.)",
+            "• Nach einzelnen Arbeitsphasen bespreche ich regelmäßig die Module, die gemeinsam erarbeitet worden sind - auch wenn es kleine Schritte sein sollten.",
+            "• Ich verteile die Arbeiten in der Klasse so, dass Schüler*innen diese realistisch erledigen können und so erleben, dass sie Kompetenzen haben."
+          ],
+          "examples": [
+            "• Sehr schön, dass diese Arbeit so gut funktioniert hat!",
+            "• Zeig uns, wie du das machst!",
+            "• Beobachte deine neue Leistung!",
+            "• Die Aufgabenstellung ist so, dass du es wirklich schaffen kannst!"
+          ]
         },
         {
           "id": 2,
-          "title": "Möglichkeiten für Teamarbeit organisieren",
-          "implementation": "Ich organisiere für Schüler*innen Möglichkeiten um Arbeiten eigenständig zu strukturieren (Zeitplan, Arbeitsschritte, Auswahl der Inhalte).",
-          "hints": "Ich organisiere Zeiträume und Strukturen für Arbeiten im Team und für konkrete soziale Begegnungen (gemeinsames Essen, gemeinsame Klassenrituale).",
-          "examples": "Das Ergebnis zeigt auch die Zusammenarbeit auf!"
-        },
-        {
-          "id": 3,
-          "title": "Begnungsmöglichkeiten organisieren",
-          "implementation": "Ich dokumentiere vor der Klasse schriftlich und für alle sichtbar, was Schüler*innen können.",
-          "hints": "Hinweise und Anregungen",
-          "examples": "Satzbeispiele"
+          "title": "Fokus Person",
+          "implementation": [
+            "• Raum für Leistungsberichte geben",
+            "• Erfolge würdigen",
+            "• Ziele und Erfolge definieren lassen",
+            "• Kriterien für Ziele definieren lassen"
+          ],
+          "hints": [
+            "• Ich gebe Schüler*innen regelmäßig Gelegenheiten, über eigene Leistungen, positive Erfahrungen und erfolgreiche Arbeiten zu sprechen.",
+            "• Ich achte darauf, einzelnen Schüler*innen sofort für positive Beiträge eine positive Rückmeldung zu geben.",
+            "• Ich lasse Schüler*innen Zielsetzungen formulieren.",
+            "• Ich lasse Schüler*innen Kriterien für Erfolg formulieren."
+          ],
+          "examples": [
+            "• Du hast dich jetzt verbessert!",
+            "• Dein Beitrag ist wichtig!",
+            "• Bleibe so experimentierfreudig!",
+            "• Du kannst es bestimmen, wie gut du bist!",
+            "• Jetzt bin ich beeindruckt!",
+            "• Das hast du schon vorher gewusst, gekonnt – sehr gut!",
+            "• Wir brauchen dazu dich!",
+            "• Das war eine gute Hilfe von dir!",
+            "• Gratuliere - dein Wissen, Können wird immer umfangreicher!",
+            "• Du hast dich schon dazu informiert – das hilft uns jetzt weiter!",
+            "• Sehr gut – deinen Beitrag finde ich ganz toll!",
+            "• Schau nach, was du selbst schon alles erarbeitet hast!"
+          ]
         }
       ],
       "icon": "competence.svg"
@@ -31,20 +61,55 @@
     {
       "id": 2,
       "title": "Autonomie",
+      "description": "Selbstständigkeit ist nicht selbstverständlich.",
       "articles": [
         {
           "id": 1,
-          "title": "Teampräsentationen ermöglichen",
-          "implementation": "Ich vereinbare und übe mit Schüler*innen Formen für positive, soziale Kommunikation: sich begrüßen, sich bedanken, sich entschuldigen, um etwas ersuchen und bitten.",
-          "hints": "Ich gebe Raum für Teampräsentationen.",
-          "examples": "Die Gruppe hat sich hier sehr gut eingearbeitet!"
+          "title": "Fokus Arbeitssituation",
+          "implementation": [
+            "• Zeit und Raum für selbständiges Arbeiten geben",
+            "• Inhalte in gemeinsamen Prozessen definieren"
+          ],
+          "hints": [
+            "• Ich gebe Schüler*innen Freiräume für die Gestaltung des Lernens und Arbeitens.",
+            "• Ich organisiere für Schüler*innen Möglichkeiten um Arbeiten eigenständig zu strukturieren (Zeitplan, Arbeitsschritte, Auswahl der Inhalte).",
+            "• Ich zeige Akzeptanz für die individuellen Arbeitswege der Schüler*innen.",
+            "• Ich erarbeite mit Schüler*innen gemeinsam, welche Inhalte wie in welchem Zeitraum erarbeitet werden.",
+            "• Ich verstehe meine Arbeit als Begleitung und Unterstützung für die eigenständige Arbeit der Schüler*innen.",
+            "• …"
+          ],
+          "examples": [
+            "• Überlege wie du die Arbeite angehen möchtest!",
+            "• Beschreibe uns deinen Arbeitsplan!",
+            "• Zeichne deinen Arbeitsplan auf und markiere immer die erledigten Arbeitsschritte!",
+            "• Suche dir selbst einen Platz, wo du am besten den Inhalt durcharbeiten kannst.",
+            "• Überlege, wie du deine Ergebnisse so präsentierst, damit du selbst dabei merkst, dass das deine eigene Arbeit ist.",
+            "• Ich finde es toll, wie jede*r den eigenen Weg zur Lösung angeht.",
+            "• Suche dir selbst Personen aus, mit denen du arbeiten willst!"
+          ]
         },
         {
           "id": 2,
-          "title": "Teamarbeit organisieren",
-          "implementation": "Ich organisiere für Schüler*innen Möglichkeiten um Arbeiten eigenständig zu strukturieren (Zeitplan, Arbeitsschritte, Auswahl der Inhalte).",
-          "hints": "Ich organisiere Zeiträume und Strukturen für Arbeiten im Team und für konkrete soziale Begegnungen (gemeinsames Essen, gemeinsame Klassenrituale).",
-          "examples": "Das Ergebnis zeigt auch die Zusammenarbeit auf!"
+          "title": "Fokus Person",
+          "implementation": [
+            "• Individuelle Lernwege akzeptieren und wertschätzen",
+            "• Vorschussvertrauen für Lernprozesse geben"
+          ],
+          "hints": [
+            "• Ich ermutige Schüler*innen, auf eigene Ideen einzugehen.",
+            "• Ich zeige den Schüler*innen Akzeptanz bei selbständigen Arbeitsschritten, auch wenn diese nicht unmittelbare Erfolge zeigen."
+          ],
+          "examples": [
+            "• Wähle ein Team aus, mit dem du die weiteren Arbeitsschritte durchgehen möchtest!",
+            "• Wähle Mitschüler*innen aus, mit denen du das erarbeiten willst.",
+            "• Du kannst jetzt selbst entscheiden,",
+            "• … was du machen möchtest!",
+            "• … wie du vorgehen möchtest!",
+            "• Du kannst davon berichten, was dir bedeutsam an diesem Inhalt ist!",
+            "• Erzähle darüber, was für dich wichtig ist!",
+            "• Wähle einen Gegenstand aus, der dir bedeutsam ist!",
+            "• Du hast dich selbst dafür entschieden – sehr gut!"
+          ]
         }
       ],
       "icon": "independence.svg"
@@ -52,13 +117,60 @@
     {
       "id": 3,
       "title": "Soziale Eingebundenheit",
+      "description": "Die Arbeit in der Klasse ist immer auch Teamarbeit – Menschen wollen auch bei der Arbeit nicht einsam sein.",
       "articles": [
         {
-          "id": 3,
-          "title": "Neue Erfahrungen",
-          "implementation": "y",
-          "hints": "Hinweise und Anregungen",
-          "examples": "Satzbeispiele"
+          "id": 1,
+          "title": "Fokus Arbeitssituation",
+          "implementation": [
+            "• Möglichkeiten für Teamarbeit organisieren",
+            "• Begegnungsmöglichkeiten organisieren",
+            "• Kommunikation im Team üben",
+            "• Teampräsentationen ermöglichen",
+            "• Klassenübergreifende Teams bilden",
+            "• Zieldefinitionen im Team entwickeln lassen"
+          ],
+          "hints": [
+            "• Ich organisiere Zeiträume und Strukturen für Arbeiten im Team und für konkrete soziale Begegnungen (gemeinsames Essen, gemeinsame Klassenrituale).",
+            "• Ich vereinbare und übe mit Schüler*innen Formen für positive, soziale Kommunikation: sich begrüßen, sich bedanken, sich entschuldigen, um etwas ersuchen und bitten.",
+            "• Ich gebe Raum für Teampräsentationen.",
+            "• Ich integriere klassenübergreifende und schulübergreifende Aktivitäten in die Arbeit mit Schüler*innen.",
+            "• Ich nutze neue Medien als Kommunikationsmöglichkeit für Schüler*innen untereinander.",
+            "• Ich lasse Schüler*innen Interessensgruppen bilden.",
+            "• Ich plane und schaffe Zeitfenster und Räume für kleine Teams, die sich selbständig organisieren können."
+          ],
+          "examples": [
+            "• Jedes Teammitglied hat dazu beigetragen!",
+            "• Das Ergebnis zeigt auch die Zusammenarbeit auf!",
+            "• Die Gruppe hat sich hier sehr gut eingearbeitet!",
+            "• Wer will dieser Gruppe noch beim nächsten Schritt helfen?",
+            "• Danke für die gemeinsame Arbeit!",
+            "• Danke für deine Unterstützung!",
+            "• Ladet aus der Gruppe noch jemanden in euer Team ein!"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Fokus Person",
+          "implementation": [
+            "• Positive Rückmeldungen im Team üben",
+            "• Unterstützungssysteme im Team einführen"
+          ],
+          "hints": [
+            "• Ich übe positive Rückmeldungen unter Schüler*innen.",
+            "• Ich schreibe Sätze für stimmigen, sozialen Umgang sichtbar auf. (Ich will mich bei …. bedanken. Ich danke dir für …).",
+            "• Ich organisiere und fördere ein Tutorensystem in der Klasse – mitunter auch klassenübergreifend.",
+            "• Ich organisiere heterogene Gruppen und entwickle dabei Vereinbarungen für den Umgang miteinander."
+          ],
+          "examples": [
+            "• Wir schaffen das nicht alleine – wer kann uns noch helfen?",
+            "• Wer hat dich bei der Arbeit unterstützt?",
+            "• Wem konntest du bei den Arbeitsschritten helfen?",
+            "• Wir sind ein gutes Team!",
+            "• Deine Beiträge sind für alle wichtig – habe Mut und bring dich ein!",
+            "• Kannst du uns erklären, wie du das gemacht hast!",
+            "• Du bist für uns alle hier ein wichtiges Mitglied der Gruppe!"
+          ]
         }
       ],
       "icon": "teamspirit.svg"
@@ -66,13 +178,53 @@
     {
       "id": 4,
       "title": "Vertrauen",
+      "description": "Vertrauen zu sich, zu Mitmenschen und zur eigenen Arbeit ist der Boden für Lernen und Entwicklung.",
       "articles": [
         {
-          "id": 4,
-          "title": "Neue Erfahrungen",
-          "implementation": "1",
-          "hints": "Hinweise und Anregungen",
-          "examples": "Satzbeispiele"
+          "id": 1,
+          "title": "Fokus Arbeitssituation",
+          "implementation": [
+            "• Auf Verständlichkeit der Aufgabenstellungen achten",
+            "• Erwartungen transparent halten",
+            "• Vertrauen in individuelle Entwicklung lebendig halten",
+            "• Konsequenzen für Erfolg und Misserfolg transparent halten"
+          ],
+          "hints": [
+            "• Ich achte darauf, dass die Arbeitsschritte nachvollziehbar von mir beschrieben werden.",
+            "• Ich mache Kriterien für die Zielerreichung oder für erfolgreiche Leistungen transparent, damit alle Schüler*innen darüber Informationen haben.",
+            "• Ich beschreibe die Konsequenzen bei Nichterreichung von Zielen und mache dies transparent.",
+            "• Ich mute Aufgabenstellungen Schüler*innen zu.",
+            "• Ich mache Ziele und Arbeitsschritte von Gruppen transparent und bespreche diese in der Klasse."
+          ],
+          "examples": [
+            "• Stelle bitte deine Arbeit der Gruppe vor!",
+            "• Ich schreibe die Abmachung auf – damit wir gemeinsam daran erinnert werden und uns daranhalten!"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Fokus Person",
+          "implementation": [
+            "• Verlässlichkeit zeigen",
+            "• Verlässlichkeit bei anderen Personen wertschätzen",
+            "• Vereinbarungen einhalten",
+            "• Persönliche Grenzen respektieren"
+          ],
+          "hints": [
+            "• Ich halte eigene Ankündigungen und Versprechen ein.",
+            "• Ich bespreche individuell Konsequenzen bezüglich der individuellen Reaktion von Schüler*innen.",
+            "• Ich gebe positive Rückmeldungen an Schüler*innen für die Einhaltung von Vereinbarungen geben.",
+            "• Ich achte auf die Echtheit in den Interaktionen.",
+            "• Ich respektiere persönliche Grenzen bei Schüler*innen und weise auf eigene Grenzen hin.",
+            "• Ich achte auf die Einhaltung von Vereinbarungen zwischen Schüler*innen."
+          ],
+          "examples": [
+            "• Gebt bitte hier eine Rückmeldung über die Arbeit und achtet auf Freundlichkeit und Ehrlichkeit!",
+            "• Ich freue mich darüber, dass du deine Ankündigung umsetzt!",
+            "• Wie geht es dir?",
+            "• Darüber musst du nicht sprechen, wenn du nicht willst!",
+            "• Dazu will ich nichts sagen – ich will noch mal darüber nachdenken"
+          ]
         }
       ],
       "icon": "trust.svg"
@@ -82,23 +234,43 @@
     {
       "id": 1,
       "title": "Literaturverzeichnis",
-      "text": "Bandura, A. (1979). Sozial-kognitive Lerntheorie. Stuttgart: Klett-Cotta. Deci, E. L. & Ryan, R. M. (1993). Die Selbstbestimmungstheorie der Motivation und ihre Bedeutung für die Pädagogik. Zeitschrift für Pädagogik 39, 2. S. 223-238. Krampen, G. und Hank, P. (2004). Die Vertrauens-Trias: Interpersonales Vertrauen, Selbstvertrauen und Zukunftsvertrauen in der psychologischen Theorienbildung und Forschung. Report Psychologie 29 (11/12), S. 666 – 676."
+      "text": [
+        "Bandura, A. (1979). Sozial-kognitive Lerntheorie.",
+        "Stuttgart: Klett-Cotta. Deci, E. L. & Ryan, R. M. (1993).",
+        "Die Selbstbestimmungstheorie der Motivation und ihre Bedeutung für die Pädagogik.",
+        "Zeitschrift für Pädagogik 39, 2. S. 223-238.",
+        "Krampen, G. und Hank, P. (2004).",
+        "Die Vertrauens-Trias: Interpersonales Vertrauen, Selbstvertrauen und Zukunftsvertrauen in der psychologischen Theorienbildung und Forschung.",
+        "Report Psychologie 29 (11/12), S. 666 – 676."
+      ]
     },
     {
       "id": 2,
       "title": "Weiterführende Links",
-      "text": "Testlink"
+      "text": ["Testlink"]
     },
     {
       "id": 3,
       "title": "FAQ",
-      "text": "Warum soll ich für Motivation sorgen?",
-      "answer": "Motivation ist verbunden mit Selbständigkeit, mit Vertrauen, mit Teamfähigkeit. Werden diese Bereiche bei Schüler*innen und Lehrkräften immer wieder aktualisiert, stellt sich ein Nutzwert für alle ein. Diese Dynamik ist auf viele Akteur*innen in unterschiedlichen Bildungseinrichtungen (vom Kindergarten bis zur Universität sowie in der Erwachsenenbildung) übertragbar."
+      "text": [
+        "Warum soll ich für Motivation sorgen?",
+        "Soll ich sowohl von der „Dimension Arbeitssituation“ als auch von der „Dimension Person“ Möglichkeiten für mein Vorgehen wählen?",
+        "Manche Beispielsätze aus der Applikation kommen mir künstlich vor – was kann ich damit machen?",
+        "Lassen sich die beschriebenen Maßnahmen, Handlungsoptionen mit theoretischen Konstrukten verbinden?"
+      ],
+      "answer": [
+        "Motivation ist verbunden mit Selbständigkeit, mit Vertrauen, mit Teamfähigkeit. Werden diese Bereiche bei Schüler*innen und Lehrkräften immer wieder aktualisiert, stellt sich ein Nutzwert für alle ein. Diese Dynamik ist auf viele Akteur*innen in unterschiedlichen Bildungseinrichtungen (vom Kindergarten bis zur Universität sowie in der Erwachsenenbildung) übertragbar.",
+        "Sie können von beiden Dimensionen Anregungen aufgreifen, kombinieren, modifizieren. Vorrangig ist auch hier, dass Sie eine Vorgangsweise wählen, die für Sie stimmig ist und wo die Relation zwischen Aufwand und Nutzen in einer für Sie passenden Relation stehen.",
+        "Offensichtlich ist Lehren und Lernen etwas sehr Persönliches. Deutlich damit verbunden ist, WAS und WIE wir in Lern- und Entwicklungsprozessen kommunizieren. Es bewährt sich, darauf zu achten, welche Botschaften mit welchen Worten gesendet werden sollen und zu reflektieren, ob die Inhalte und Worte in Übereinstimmung mit der eigenen Person und mit der Situation stehen. Die Beispielsätze in der Anwendung stehen auch als Anregung für weitere, persönlich stimmige Formulierungen.",
+        "Alle Kategorien basieren auf elaborierte, im Diskurs stehende Theorien. Aktivieren und Motivieren, Selbständigkeit und Teamgeist korrespondieren mit dem Ansatz der Selbstbestimmungstheorie nach Deci & Ryan (1993) und den Arbeiten von Martinek (2014). Ebenso gibt es Verbindungen zur Sozial-kognitiven Lerntheorie nach Bandura (1979), theoretische Anbindungen lassen sich auch aus den neueren Ausführungen zur Selbstmanagement-Therapie (Kanfer, Reinecker & Schmelzer 2012) oder zu den Arbeiten des Forschenden Lernens (Reitinger 2013) finden. Zur Dimension des Vertrauens finden sich als Theorienhintergrund die Ausführungen von Krampen & Hank (2004), Luhmann (1989), Petermann (1985) und Seyfried (2014). Da sich wissenschaftlichen Theorien auch immer in einem dynamischen Diskurs befinden, lassen sich weitere Theorieverbindungen herstellen, die – wenn Sie sich einer Theoriearbeit widmen – aufgegriffen und für weitere Entwicklungen einbezogen werden können."
+      ]
     },
     {
       "id": 4,
       "title": "Impressum & Datenschutz",
-      "text": "Alle Inhalte dieser App (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten wie zum Beispiel auf anderen Websites erneut veröffentlichen. Falls notwendig, werden wir die unerlaubte Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen."
+      "text": [
+        "Alle Inhalte dieser App (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten wie zum Beispiel auf anderen Websites erneut veröffentlichen. Falls notwendig, werden wir die unerlaubte Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen."
+      ]
     }
   ]
 }
