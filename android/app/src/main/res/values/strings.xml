@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">motive</string>
+    <string name="title_activity_main">motive</string>
+    <string name="package_name">com.gtnsolutions.motive</string>
+    <string name="custom_url_scheme">com.gtnsolutions.motive</string>
+</resources>
