@@ -246,11 +246,6 @@
     },
     {
       "id": 2,
-      "title": "Weiterführende Links",
-      "text": ["Testlink"]
-    },
-    {
-      "id": 3,
       "title": "FAQ",
       "text": [
         "Warum soll ich für Motivation sorgen?",
@@ -266,7 +261,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Impressum & Datenschutz",
       "text": [
         "Alle Inhalte dieser App (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Bitte fragen Sie uns bevor Sie die Inhalte dieser Website verbreiten, vervielfältigen oder verwerten wie zum Beispiel auf anderen Websites erneut veröffentlichen. Falls notwendig, werden wir die unerlaubte Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen."
