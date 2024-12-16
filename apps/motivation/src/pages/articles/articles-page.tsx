@@ -85,7 +85,7 @@ export function ArticlesPage() {
         <AppBar position="static">
           <Tabs variant="fullWidth" onChange={handleChange} value={value}>
             <LinkTab label="Umsetzung" />
-            <LinkTab label="Hinweise" />
+            <LinkTab label="Möglichkeiten" />
             <LinkTab label="Satzbeispiele" />
           </Tabs>
         </AppBar>
