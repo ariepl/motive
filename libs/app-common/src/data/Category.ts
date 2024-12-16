@@ -1,4 +1,5 @@
 import { Article } from './Article';
+import { QuestionnairePointMessages } from './QuestionnairePointMessages';
 
 export interface Category {
   id: number;
@@ -6,4 +7,5 @@ export interface Category {
   description?: string;
   icon: string;
   articles: Article[];
+  questionnairePointMessages: QuestionnairePointMessages;
 }

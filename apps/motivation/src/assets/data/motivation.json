@@ -56,7 +56,11 @@
           ]
         }
       ],
-      "icon": "competence.svg"
+      "icon": "competence.svg",
+      "questionnairePointMessages": {
+        "low": "Ich gebe Schülerinnen und Schülern immer wieder auch Aufgabenstellungen, von denen ich nicht sicher bin, ob diese gelöst werden können - aber vielleicht wissen sie mehr als ich vermute. Schülerinnen und Schülern gebe ich bei gelungenen Aufgabenlösungen Rückmeldung darüber was sie bereits schaffen.",
+        "high": "Grundsätzlich meine ich, dass meine Schülerinnen und Schüler nicht besonders klug sind."
+      }
     },
     {
       "id": 2,
@@ -112,7 +116,11 @@
           ]
         }
       ],
-      "icon": "independence.svg"
+      "icon": "independence.svg",
+      "questionnairePointMessages": {
+        "low": "Haben Schülerinnen und Schüler die Möglichkeit aus unterschiedlichen Arbeitsaufträgen auszuwählen, kann dies das Engagement bei Lernprozessen steigern. Je mehr die Schülerinnen und Schüler bei Lernprozessen eigene Entscheidungen treffen können, umso größer ist die Motivation, sich in das Thema einzulassen.",
+        "high": "Schülerinnen und Schüler brauchen klare Anweisungen bei Lernprozessen, damit sie das vorgegebene Ziel erreichen."
+      }
     },
     {
       "id": 3,
@@ -173,7 +181,11 @@
           ]
         }
       ],
-      "icon": "teamspirit.svg"
+      "icon": "teamspirit.svg",
+      "questionnairePointMessages": {
+        "low": "Wenn einzelne Schülerinnen und Schüler spüren, dass sie zu einer Gruppe gehören, macht Ihnen das Lernen mehr Freude. Für Schülerinnen und Schüler ist das Gefühl, zu einer Gruppe zu gehören, für ein erfolgreiches Arbeiten bedeutsam.",
+        "high": "Das Lernen in einer Gruppe ist für Schülerinnen und Schüler unangenehm und stört den Lernprozess."
+      }
     },
     {
       "id": 4,
@@ -227,7 +239,11 @@
           ]
         }
       ],
-      "icon": "trust.svg"
+      "icon": "trust.svg",
+      "questionnairePointMessages": {
+        "low": "Eine wichtige Voraussetzung für erfolgreiches Lernen ist, dass Aufgabenstellungen von den Schülerinnen und Schülern verstanden werden können. Damit Schülerinnen und Schüler erfolgreich lernen können, müssen gestellte Aufgaben für Schülerinnen und Schülern bewältigbar erscheinen.",
+        "high": "Ein Klima des Vertrauens stört effektive Lern- und Arbeitsprozesse in einer Klasse."
+      }
     }
   ],
   "additionals": [
