@@ -48,7 +48,7 @@ export function ResultsPage() {
                 className={styles.link}
                 to={AppRoutingPaths.CATEGORY_DETAIL + '?id=' + category.id}
               >
-                <h2 className={styles.category}> {points} Punkte</h2>
+                <h2 className={styles.category}> {Math.max(points, 0)} Punkte</h2>
                 <p className={styles.articles}>{category.title}</p>
               </Link>
               <div className={styles.arrow}>
