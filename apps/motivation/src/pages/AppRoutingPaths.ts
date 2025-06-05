@@ -1,4 +1,5 @@
 export class AppRoutingPaths {
+  public static readonly WELCOME = 'welcome';
   public static readonly EXPLORE = 'explore';
   public static readonly CATEGORY_DETAIL = 'category';
   public static readonly ARTICLES = 'articles';

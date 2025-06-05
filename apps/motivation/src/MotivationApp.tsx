@@ -13,6 +13,7 @@ import { NavigationItem } from '@gtn/app-common/navigation/NavigationItem';
 import './styles.scss';
 import { ArticlesPage } from './pages/articles/articles-page';
 import { ResultsPage } from './pages/results/results-page';
+import { WelcomePage } from './pages/welcome/welcome-page';  // Importiere die WelcomePage
 import { AdditionalKnowledgePage } from './pages/additional-knowledge/additional-knowledge-page';
 
 export default function MotivationApp() {
@@ -21,7 +22,12 @@ export default function MotivationApp() {
       {
         path: CommonRoutingPaths.HOME,
         exact: true,
-        content: () => <Redirect to={`/${AppRoutingPaths.EXPLORE}`} />,
+        content: () => <Redirect to={`/${AppRoutingPaths.WELCOME}`} />, // Hier wird zur WelcomePage weitergeleitet
+      },
+      {
+        path: `/${AppRoutingPaths.WELCOME}`,
+        content: () => <WelcomePage />, // Die Route für die Willkommensseite
+        title: 'welcome.page-title',
       },
       {
         path: `/${AppRoutingPaths.EXPLORE}`,

@@ -28,10 +28,9 @@ export function ResultsPage() {
     <div className={styles.container}>
       <h1>Ergebnisse</h1>
       <p>
-        Dies ist eine Rankingliste Ihrer bevorzugten pädagogischen
-        Vorgangsweisen, die Ihre Stärken und Effizienz in der
-        Motivationsförderung zeigt.
-      </p>
+      Sie sehen hier eine Liste der von Ihnen bevorzugten, pädagogischen Vorgangsweisen.
+      <br /><br />
+      Die Liste zeigt Ihre Stärken in der Motivationsförderung. Vertiefen Sie Ihre bevorzugten Ansätze mit den vorgeschlagenen Anregungen oder testen Sie neue Methoden, die Ihre Arbeit bereichern.      </p>
       <div className={styles.resultsContainer}>
         {sortedCategoryPoints.map(([categoryId, points]) => {
           const category = dataManager

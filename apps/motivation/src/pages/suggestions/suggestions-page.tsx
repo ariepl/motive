@@ -34,7 +34,7 @@ export function SuggestionsPage() {
   return (
     <div className={styles.container}>
       <h1>{t('suggestions.headline')}</h1>
-      <p>{t('suggestions.description')}</p>
+      <p dangerouslySetInnerHTML={{ __html: t('suggestions.description') }}></p>
 
       <div className={styles.startContainer}>
         <GtnButton
