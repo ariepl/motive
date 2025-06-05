@@ -26,7 +26,7 @@ export function ExplorePage() {
               >
                 <h1 className={styles.category}>{category.title}</h1>
                 <div className={styles.articles}>
-                  8 Möglichkeiten und Anregungen für die Praxis
+                  Möglichkeiten und Anregungen für die Praxis
                 </div>
               </Link>
               <div className={styles.arrow}>

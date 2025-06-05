@@ -1,5 +1,10 @@
 {
   "name": "Motivation App",
+  "welcome":{
+  "headline": "Mehr Motivation. <br> Mehr Erfolg",
+    "description": "Entdecke, was deine Schüler:innen antreibt und nutze personalisierte Strategien für mehr Motivation im Alltag. Mit wissenschaftlich fundierten Methoden unterstützt dich die Motive-App dabei, deine Ziele einfacher zu erreichen. Starte jetzt und finde deinen individuellen Weg zum Erfolg! ",
+    "button": "Jetzt loslegen"
+  },
   "explore": {
     "page-title": "Entdecken",
     "headline": "Motivation fördern",
@@ -8,7 +13,7 @@
   "suggestions": {
     "page-title": "Vorschläge",
     "headline": "Vorschläge finden",
-    "description": "Pädagogische Arbeit ist eng mit der Schülermotivation verbunden. Wie gehen wir damit um und welche Präferenzen haben Sie? Beantworten Sie die Fragen zur Einschätzung Ihrer bevorzugten pädagogischen Methoden für die Motivation Ihrer SchülerInnen.",
+    "description": "<br>Pädagogische Arbeit ist immer auch mit der Frage nach Motivation der Schülerinnen und Schüler verbunden. Fehlende Motivation kann auch zu Störungen führen und ist auch Auslöser für mitunter massive Belastungen bei Lehrkräften. <br><br> Wie können wir damit umgehen? Haben Sie Präferenzen bei ihrer pädagogischen Arbeit? Welche Interventionen stehen zur Verfügung? Wenn dies für Sie von Interesse ist, können Ihnen die folgenden Fragen Auskunft darüber geben.",
     "start-questions": "Vorschläge finden"
   },
   "knowledge": {
